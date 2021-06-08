@@ -1,5 +1,5 @@
 * #### We have the following two APIs:
- - data about products: `https://fakestoreapi.com/products`
+- data about products: `https://fakestoreapi.com/products`
  - data about shopping carts: `https://fakestoreapi.com/carts`
 
 * #### Please answer the following questions from the data using a program in your preferred programming language.
