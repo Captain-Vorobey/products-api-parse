@@ -1,7 +1,8 @@
 require_relative 'lib/reader'
 require_relative 'lib/product_parser'
+require_relative 'data/data'
 
-products = Reader.new('https://fakestoreapi.com/products').get_data
+products = Reader.new(URL).get_data
 
 categories = ProductParser.get_categories(products)
 
